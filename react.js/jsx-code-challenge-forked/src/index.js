@@ -1,0 +1,21 @@
+//Create a react app from scratch.
+//It should display a h1 heading.
+//It should display an unordered list (bullet points).
+//It should contain 3 list elements.
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDOM.render(
+  <div>
+    <h1>TO DO LIST</h1>
+    <p>
+      <ul>
+        <li>Buy a laptop</li>
+        <li>Learn machine learning</li>
+        <li>Focus on oneself</li>
+      </ul>
+    </p>
+  </div>,
+  document.getElementById("root")
+);
