@@ -23,10 +23,10 @@ if (currentHour < 12) {
   customStyle.color = "red";
 } else if (currentHour < 18) {
   greeting = "Good Afternoon";
-  customStyle = "green";
+  customStyle.color = "green";
 } else {
   greeting = "Good evening";
-  customStyle = "blue";
+  customStyle.color = "blue";
 }
 
 ReactDOM.render(
